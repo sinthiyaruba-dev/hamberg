@@ -1,0 +1,36 @@
+.color-switcher{
+    padding:20px 20px;
+    top: 50%;
+    background: #ffff;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    left: -150px;
+}
+.color-switcher .green i{
+    font-size: 40px;
+    color:green;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.color-switcher .purple i{
+    font-size: 40px;
+    color:purple;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.color-switcher .red i{
+    font-size: 40px;
+    color:red;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.color-switcher .white i{
+    font-size: 40px;
+    color:black;
+    /* margin-right: 20px; */
+    cursor: pointer;
+}
+.slides{
+    left: 0;
+}
